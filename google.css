@@ -2,6 +2,10 @@ nav{
   float: right;
 }
 
+.nav{
+  margin-top:30px;
+  margin-right: 20px;
+}
 
 form img{
   height: 55%;
@@ -11,21 +15,19 @@ form img{
 }
 
 #menu{
-  background-image: url(menu.png);
   width: 20px;
   height: 20px;
 }
 
 #cloche{
-  background-image: url(cloche.png);
   width: 20px;
   height: 20px;
 }
 
 #profil{
-  background-image: url(profil.png);
-  width: 20px;
-  height: 20px;
+  width: 10%;
+  height: 10%;
+  bottom:10px;
 }
 
 
@@ -42,10 +44,16 @@ form img{
   margin-left: 13%;
 }
 
+#ecart{
+  height: 15em;
+}
+
 footer{
+  border:0.5px solid rgb(143, 141, 141);
   background-color:rgb(181, 181, 181);
-  float: bottom;
-  margin-top:19%;
+  padding-top:15px;
+  padding-bottom: 15px;
+
 }
 
 .droite{
@@ -59,4 +67,5 @@ footer a{
 
 a{
   text-decoration: none;
+  color:black;
 }
