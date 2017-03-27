@@ -11,17 +11,21 @@ form img{
 }
 
 #menu{
-  background-image: image(menu.png);
+  background-image: url(menu.png);
   width: 20px;
   height: 20px;
 }
 
 #cloche{
-
+  background-image: url(cloche.png);
+  width: 20px;
+  height: 20px;
 }
 
 #profil{
-
+  background-image: url(profil.png);
+  width: 20px;
+  height: 20px;
 }
 
 
