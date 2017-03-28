@@ -1,10 +1,44 @@
 nav{
   float: right;
   margin-top: 10px;
+  position: relative;
 }
 
-.nav{
+nav a{
   margin-right: 15px;
+  position: relative;
+}
+
+#menu{
+  position: relative;
+  bottom:5px;
+  width: 20px;
+  height: 20px;
+}
+
+#cloche{
+  position: relative;
+  bottom:5px;
+  width: 20px;
+  height: 20px;
+}
+
+#profil{
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+
+/*{
+  border:1px solid black;
+}*/
+
+#mail{
+  bottom: 10px;
+}
+
+#image{
+  bottom: 10px;
 }
 
 form img{
@@ -16,22 +50,6 @@ form img{
 
 input{
   height: 30px;
-}
-
-#menu{
-  width: 20px;
-  height: 20px;
-}
-
-#cloche{
-  width: 20px;
-  height: 20px;
-}
-
-#profil{
-  width: 10%;
-  height: 10%;
-  bottom:10px;
 }
 
 
@@ -62,9 +80,9 @@ button{
 
 footer{
   border:0.5px solid rgb(143, 141, 141);
-  background-color:rgb(181, 181, 181);
-  padding-top:15px;
-  padding-bottom: 15px;
+  background-color:rgb(233, 233, 233);
+  padding-top:10px;
+  padding-bottom: 10px;
   position: fixed;
   width: 100%
 
@@ -81,5 +99,7 @@ footer a{
 
 a{
   text-decoration: none;
-  color:black;
+  color:rgb(101, 101, 101);
+  font-family: sans-serif;
+  font-size: 12px;
 }
