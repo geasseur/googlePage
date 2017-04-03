@@ -9,6 +9,10 @@ nav a{
   position: relative;
 }
 
+nav a:hover{
+  text-decoration: underline;
+}
+
 #menu{
   position: relative;
   bottom:5px;
@@ -102,6 +106,10 @@ footer{
 footer a{
   margin-left: 1%;
   margin-right: 1%
+}
+
+footer a:hover{
+  text-decoration: underline;
 }
 
 a{
