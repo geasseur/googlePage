@@ -1,33 +1,33 @@
-nav{
+nav{ /*modifie les navbar*/
   float: right;
   margin-top: 10px;
   position: relative;
 }
 
-nav a{
+nav a{ /*modifie les liens des navbar*/
   margin-right: 15px;
   position: relative;
 }
 
-nav a:hover{
+nav a:hover{ /*modifie les textes en les soulignant en passant le curseur dessus*/
   text-decoration: underline;
 }
 
-#menu{
+#menu{ /*modifie le menu de la navbar*/
   position: relative;
   bottom:5px;
   width: 20px;
   height: 20px;
 }
 
-#cloche{
+#cloche{ /*modifie la notification de la navbar*/
   position: relative;
   bottom:5px;
   width: 20px;
   height: 20px;
 }
 
-#profil{
+#profil{ /*modifie le profil de la navbar*/
   position: relative;
   width: 30px;
   height: 30px;
@@ -37,32 +37,31 @@ nav a:hover{
   border:1px solid black;
 }*/
 
-#mail{
+#mail{ /*modifie les mails de la navbar*/
   bottom: 10px;
 }
 
-#image{
+#image{ /*modifie le lien images de la navbar*/
   bottom: 10px;
 }
 
-form img{
+form img{ /*modifie la taille de l'image google*/
   height: 55%;
   width: 35%;
   margin-left:35%;
   margin-top:10%;
 }
 
-input{
+input{ /*modifie la taille de la barre de recherche*/
   height: 30px;
 }
 
 
-#recherche{
+#recherche{ /*modifie la position de la boite div où se trouve l'image google, la barre de recherche et les boutons */
   margin-left:34%;
 }
 
 #barreRecherche{
-  box-shadow: 3px 2px 3px 5px rgb(195, 195, 195);
   display: block;
   margin-left: -5%;
   width: 65%;
@@ -74,7 +73,7 @@ input{
 
 
 
-button{
+button{ /*modifie les boutons*/
   margin-top: 30px;
   height: 40px;
   width: 130px;
@@ -90,7 +89,7 @@ button{
   height: 15em;
 }
 
-footer{
+footer{ /*modifie le footer*/
   border:0.5px solid rgb(143, 141, 141);
   background-color:rgb(233, 233, 233);
   padding-top:10px;
@@ -103,16 +102,16 @@ footer{
   float: right;
 }
 
-footer a{
+footer a{ /*modifie les liens du footer*/
   margin-left: 1%;
   margin-right: 1%
 }
 
-footer a:hover{
+footer a:hover{ /*modifie les liens du footer quand le curseur passe dessus*/
   text-decoration: underline;
 }
 
-a{
+a{ /*modifie les liens*/
   text-decoration: none;
   color:rgb(101, 101, 101);
   font-family: sans-serif;
